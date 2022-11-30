@@ -1,0 +1,297 @@
+
+@media (max-width: 1350px) {
+    // header .dropdown-cart .dropdown-menu,
+    // header .dropdown-notification .dropdown-menu,
+    // header .headProfileButton .dropdown-menu {
+    //     left: 0%;
+    //     transform: translate(-80%, 0);
+    // }
+}
+@media (max-width:1200px){
+    .main-content {
+        padding: 120px 0 50px 0;
+    }
+    .buttons-for-tabs {
+        position: relative;
+        top:0;
+    }
+    span.vue-star-rating-pointer.vue-star-rating-star svg{
+        width:25px;
+        height: auto;
+    }
+    .home-slider .bg-image{
+        background-position: right center;
+    }
+}
+@media(width:1200px){
+    span.vue-star-rating-pointer.vue-star-rating-star svg{
+        width:100% !important;
+        height: auto;
+    }
+}
+@media(max-width:992px){
+    .slider-wrapper{
+        height: 400px;
+    }
+    .slide-content h1{
+        font-size: 2rem;
+    }
+    .headProfileButton .profileImage{
+        width:35px;
+        height:35px;
+    }
+}
+@media (max-width:768px){
+    .w-33{
+        width: 33%;
+    }
+    header.header{
+        min-height: 64px;
+    }
+    header + div{
+        padding-top: 64px;
+    }
+    .main-content {
+        padding-top:90px;
+    }
+    .h2, h2 {
+        font-size: 1.5rem;
+    }
+    header.header .navbar {
+        padding:.863rem 0;
+    }
+    header.header.login .navbar {
+        padding:.613rem 0;
+    }
+    .navbar-brand img {
+        width: 110px;
+        height: auto;
+    }
+    .custom-switch-grid .col-12:nth-child(odd){
+        padding-right: 15px;
+    }
+    .custom-switch-grid .col-12:nth-child(even){
+        padding-left: 15px;
+    }
+    .hide-empty-content tbody tr:last-child .bold-cell {
+        display: block !important;
+        text-align: center;
+        &::before{
+            content: ''  !important;
+        }
+    }
+    .hide-empty-content tbody tr:last-child td {
+        display:none !important;
+    }
+    table.b-table-stacked-md{
+        td{
+             padding: 0.5rem;
+        }
+    }
+    .modal-content{
+        padding:1rem;
+    }
+    .nav.nav-tabs{
+        float: none;
+        display: inline-block;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        max-width: 100%;
+        white-space: nowrap !important;
+        padding-right: 40%;
+    }
+    li.nav-item {
+        display: inline-block;
+    }
+    .nav.nav-tabs::-webkit-scrollbar {
+        display: inline-block;
+        height: 5px;
+    }
+    .nav.nav-tabs::-webkit-scrollbar-track {
+        background: transparent;
+        height: 5px;
+    }
+    .nav.nav-tabs::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        border-right: none;
+        border-left: none;
+        height: 5px;
+    }
+    .nav.nav-tabs::-webkit-scrollbar-track-piece:end {
+        background: transparent;
+        margin-bottom: 10px; 
+        height: 5px;
+    }
+    .nav.nav-tabs::-webkit-scrollbar-track-piece:start {
+        background: transparent;
+        margin-top: 10px;
+        height: 5px;
+    }
+    footer{
+        .footer-logo{  
+            width:120px; 
+        }
+    }
+}
+@media (max-width:577px){
+    .col-xs-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-xs-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .mb-xs-0{
+        margin-bottom:0 !important;
+    }
+    .mr-xs-3{
+        margin-right:1rem !important
+    }
+    .mb-xs-3{
+        margin-bottom:1rem !important;
+    }
+    .text-xs-center{
+        text-align:center;
+    }
+    .text-xs-right{
+        text-align:right !important;
+    }
+    .text-xs-left{
+        text-align:left !important;
+    }
+    .modal-dialog {
+        .login-social i {
+            font-size: 1.3rem;
+        }
+    }
+    .iconBg-size {
+        width: 32px;
+        height: 32px;
+    }
+    .footer{
+        .download-app{
+            width:120px !important;
+            height:auto;
+            display:inherit !important;
+        }
+    }
+}
+
+@media (max-width:576px){
+    .slider-wrapper{
+        height: 350px;
+    }
+        
+    .modal-dialog{
+        margin:1rem;
+    }
+    .nav.nav-tabs{
+        padding-right: 40%;
+    }
+    .tabs{
+        position: relative;
+        
+        &::before{
+            font-family: remixicon!important;
+            content: "\EA6E";
+            color:rgba(0, 0, 0, .25);
+            width: 10%;
+            height: 54px;
+            position: absolute;
+            right: 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 1.35rem;
+        }
+    }
+    .theme-dark .tabs{
+        &::before{
+            color: rgb(255 255 255 / 20%); 
+        }
+    }
+    .h-xs-inherit{
+        height: auto !important;
+    }
+    .side-card{
+        .bg-image{
+            height: 220px !important;
+        }
+
+    }
+    .alert-dialog-modal{
+        .modal-dialog{
+            left: 15px;
+            min-width: calc(100vw - 30px);
+        } 
+    }
+  .login{
+    .cart{
+        #dropdown-right{
+            position: unset;
+        }
+        .dropdown-menu-right{
+            margin-top: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+      }
+  }
+    
+}
+@media (max-width:500px){
+    header
+    {
+        .header .dropdown-toggle i {
+            font-size: 19px;
+        }
+    }
+
+}
+@media (max-width:400px){
+    header.header .dropdown-toggle i{
+		font-size:19px;
+    }
+    .footer{
+        .download-app{
+            width:130px !important;
+        }
+    }
+}
+@media (max-width:350px){
+    header .navbar-brand img {
+        width: 92px;
+        height: auto;
+    }
+    .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .text-center{
+        text-align: center !important;
+    }
+}
+
+
+@media (min-width: 576px){
+    .home-slider .slick-dots{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px){
+    .home-slider .slick-dots{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px){
+    .home-slider .slick-dots{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px){
+    .home-slider .slick-dots{
+        max-width: 1140px;
+    }
+}
+
